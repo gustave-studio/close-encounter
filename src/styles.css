@@ -3,27 +3,6 @@
     text-align: center;
     color: #ffffff;
   }
-  
-.App .question-enter {
-  opacity: 0;
-  transform: scale(0.9);
-}
-
-.App .question-enter-active {
-  opacity: 1;
-  transform: translateX(0);
-  transition: opacity 300ms, transform 300ms;
-}
-
-.App .question-exit {
-  opacity: 1;
-}
-
-.App .question-exit-active {
-  opacity: 0;
-  transform: scale(0.9);
-  transition: opacity 300ms, transform 300ms;
-}
 
 .container {
   background-position: top;
@@ -69,6 +48,28 @@
   text-align: center;
   margin: 5% 0%;
 }
+
+.question-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.question-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.question-exit {
+  opacity: 1;
+}
+
+.question-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
 
 .explanation {
   width: 70%;
