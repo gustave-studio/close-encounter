@@ -1,5 +1,3 @@
-
-   
 import React from 'react';
 // import { Helmet, HelmetProvider } from 'react-helmet-async';
 
@@ -8,8 +6,8 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import StartButton from './StartButton';
 
-const Top = () => (
-  <>
+function Top() {
+  return (
     <div className="container">
       <h1>
         SF診断
@@ -43,7 +41,7 @@ const Top = () => (
         <StartButton />
       </div>
     </div>
-  </>
-);
+  );
+}
 
 export default Top;

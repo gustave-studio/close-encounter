@@ -9,12 +9,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Top />}>
-        </Route>
-        <Route path="/questions" element={<Questions />}>
-        </Route>
-        <Route path="/result1" element={<Top />}>
-        </Route>
+        <Route exact path="/" element={<Top />} />
+        <Route path="/questions" element={<Questions />} />
+        <Route path="/result1" element={<Top />} />
       </Routes>
     </BrowserRouter>
   );

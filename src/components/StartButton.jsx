@@ -4,8 +4,8 @@ import Button from '@mui/material/Button';
 import Grid from '@material-ui/core/Grid';
 import { Link } from 'react-router-dom';
 
-const StartButton = () => (
-  <>
+function StartButton() {
+  return (
     <Grid container>
       <Grid item xs={3} />
       <Grid item xs={6}>
@@ -26,7 +26,7 @@ const StartButton = () => (
       </Grid>
       <Grid item xs={3} />
     </Grid>
-  </>
-);
+  );
+}
 
 export default StartButton;
