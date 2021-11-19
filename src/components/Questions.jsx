@@ -2,9 +2,11 @@ import React, { useState, useEffect, useRef } from 'react';
 
 import { CSSTransition } from 'react-transition-group';
 import { useNavigate } from 'react-router-dom';
+// import PropTypes from 'prop-types';
 import Question from './Question';
 
 const Questions = () => {
+  const navigate = useNavigate();
   const nodeRef = useRef(null);
 
   const questionText = ['あなたは本はよく読みますか？',
@@ -27,8 +29,6 @@ const Questions = () => {
   const setAnswers = [setAnser1, setAnser2, setAnser3, setAnser4, setAnser5, setAnser6, setAnser7];
 
   const [showQuestion, setShowQuestion] = useState(true);
-
-  const navigate = useNavigate;
 
   const nextQuestion = () => {
     if (answer1 === null) {
@@ -100,7 +100,7 @@ const Questions = () => {
         classNames="question"
         // classNames="react-transition-group"
         unmountOnExit
-        // onExited={() => setShowQuestion(false)}
+        // onExited={() => navigate('/result1')}
         nodeRef={nodeRef}
       >
         <Question
@@ -114,5 +114,9 @@ const Questions = () => {
     </div>
   );
 };
+
+// Questions.propTypes = {
+//   navigate: PropTypes.string.isRequired,
+// };
 
 export default Questions;
