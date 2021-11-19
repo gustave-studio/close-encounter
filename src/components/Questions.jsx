@@ -4,7 +4,7 @@ import { CSSTransition } from 'react-transition-group';
 import { useNavigate } from 'react-router-dom';
 import Question from './Question';
 
-function Questions() {
+const Questions = () => {
   const nodeRef = useRef(null);
 
   const questionText = ['あなたは本はよく読みますか？',
@@ -113,6 +113,6 @@ function Questions() {
       </CSSTransition>
     </div>
   );
-}
+};
 
 export default Questions;

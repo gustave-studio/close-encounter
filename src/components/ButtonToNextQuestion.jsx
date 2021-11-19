@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '@mui/material/Button';
 import PropTypes from 'prop-types';
 
-function ButtonToNextQuestion(props) {
+const ButtonToNextQuestion = (props) => {
   const {
     setAnswer, questionNumber, setQuestionNumber, setShowQuestion,
   } = props;
@@ -34,7 +34,7 @@ function ButtonToNextQuestion(props) {
       </Button>
     </>
   );
-}
+};
 
 ButtonToNextQuestion.propTypes = {
   setAnswer: PropTypes.func.isRequired,

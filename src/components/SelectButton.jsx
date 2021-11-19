@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import PropTypes from 'prop-types';
 import ButtonToNextQuestion from './ButtonToNextQuestion';
 
-function SelectButton(props) {
+const SelectButton = (props) => {
   const {
     setAnswer, questionNumber, setQuestionNumber, setShowQuestion,
   } = props;
@@ -29,7 +29,7 @@ function SelectButton(props) {
       <Grid item xs={3} />
     </Grid>
   );
-}
+};
 
 SelectButton.propTypes = {
   setAnswer: PropTypes.func.isRequired,
