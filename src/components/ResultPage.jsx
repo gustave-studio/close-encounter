@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
@@ -18,6 +18,9 @@ import { useNavigate } from 'react-router-dom';
 import Results from '../Results';
 
 const ResultPage = (props) => {
+  const navigate = useNavigate();
+  const [toTop, setToTop] = useState(false);
+
   const { result } = props;
   const texts = Results[result].containts.split('\n').map((item) => (
     <div key={item}>
@@ -55,7 +58,15 @@ const ResultPage = (props) => {
     }
   };
 
-  const navigate = useNavigate;
+  const toTopButton = () => {
+    if (toTop) {
+      navigate('/');
+    }
+  };
+
+  useEffect(() => {
+    toTopButton();
+  });
 
   return (
     <>
@@ -103,7 +114,7 @@ const ResultPage = (props) => {
                   style={{ backgroundColor: '#ff1493', fontSize: '20px' }}
                   variant="contained"
                   onClick={() => {
-                    navigate('/');
+                    setToTop(true);
                   }}
                 >
                   診断トップへ
