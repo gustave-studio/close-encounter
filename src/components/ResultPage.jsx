@@ -71,8 +71,13 @@ const ResultPage = (props) => {
   return (
     <>
       <div className="container">
-        <h1>{Results[result].title}</h1>
-        <h2>{Results[result].class}</h2>
+        <h1>
+          あなたが出会ったSFは
+          <br />
+          「
+          {Results[result].title}
+          」
+        </h1>
         <div className="explanation">
           <Card sx={{ minWidth: 275 }}>
             <CardContent>
@@ -86,18 +91,18 @@ const ResultPage = (props) => {
             </CardContent>
             { advertisement() }
             <TwitterShareButton
-              url={`https://no-longer-human.gustave-studio.com/${result}`}
+              url={`https://close-encounter-4d1f3.web.app/${result}`}
               title={['']}
             >
               <TwitterIcon size={50} round />
             </TwitterShareButton>
             <FacebookShareButton
-              url={`https://no-longer-human.gustave-studio.com/${result}`}
+              url={`https://close-encounter-4d1f3.web.app/${result}`}
               quote={['']}
             >
               <FacebookIcon size={50} round />
             </FacebookShareButton>
-            <LineShareButton url={`https://no-longer-human.gustave-studio.com/${result}`}>
+            <LineShareButton url={`https://close-encounter-4d1f3.web.app/${result}`}>
               <LineIcon size={50} round />
             </LineShareButton>
           </Card>
