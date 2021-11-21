@@ -32,28 +32,40 @@ const ResultPage = (props) => {
     switch (result) {
       case 'result1':
         return (
-          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4101006067&linkId=5a0dc653dc9ac7961c4bffa2e4408e2b&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4122022878&linkId=d6a22d246b734078e09651ecdda5a7d4&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
         );
       case 'result2':
         return (
-          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4101006075&linkId=1ba564822a40f9269233aebc00f29fca&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4040721578&linkId=c9de6ccba05e1c73b038350808a464d5&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
         );
       case 'result3':
         return (
-          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4041099153&linkId=11a553ab9d354496396890f0be5c4a45&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4488018424&linkId=ca458dba6961daf13072c65d061268e6&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
         );
 
       case 'result4':
         return (
-          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4101006032&linkId=f77b9d132dafbc06dbd20161a13a0c12&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4062768534&linkId=be9a86ec880535c2fcfc98808496e9bc&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
         );
       case 'result5':
         return (
-          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4087520013&linkId=ff30a8b06e356452a90b78e5c88f448a&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=B08CRYNGLF&linkId=79aaa5089ece79f3418c7ae21368f76a&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+        );
+      case 'result6':
+        return (
+          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4150314314&linkId=6bb476525e52d2ad0317b111403d5286&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+        );
+      case 'result7':
+        return (
+          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4150313148&linkId=83cd26ffdbbe26e60f52288e7ea3efc0&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+        );
+      case 'result8':
+        return (
+          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4150312648&linkId=c4158388b619d2bec8815e2c3ee18013&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
         );
       default:
         return (
-          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4087520013&linkId=cbbd941b3083b520cfc462c72533e149&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4150312648&linkId=c4158388b619d2bec8815e2c3ee18013&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
         );
     }
   };
