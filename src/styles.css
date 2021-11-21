@@ -14,11 +14,16 @@
 
 .container h1 {
   width: 100%;
-  color: #ffffff;
-  font-size: 30px;
+  color: #F98ED8;
+  font-size: 50px;
+  font-weight: 900;
+  font-weight: bolder;
+  font-style: oblique;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 250px;
   margin-bottom: 50px;
+  -webkit-text-stroke: 1px #3F3F3F;
+  font-family: 'American Typewriter';                                 
 }
 
 .container h2 {
@@ -74,7 +79,7 @@
 .explanation {
   width: 70%;
   /* position: absolute; */
-  margin: 0% 15% ;
+  margin: 150px 15% ;
 }
 
 .container button {
