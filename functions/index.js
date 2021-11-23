@@ -9,8 +9,8 @@ const path = require('path');
 
 exports.resultOgTags1 = functions.https.onRequest((req, res) => {
   const ogTags = '<meta name="twitter:card" content="summary_large_image"></meta>'
-    + '<meta property="og:title" content="人間失格度0% 「走れメロス」級" />'
-    + '<meta property="og:description" content="人間失格度0%のあなたは「走れメロス」級の人間です！友人との約束を守るメロスのように模範となる人間でしょう。「走れメロス」は教科書にも載っており、太宰治の代表的な作品の1つです。話が暗くなく読みやすいので、読んでみてはいかがでしょうか。" />'
+    + '<meta property="og:title" content="残像に口紅を" />'
+    + '<meta property="og:description" content="「あ」が消えると、「愛」も「あなた」もなくなった。ひとつ、またひとつと言葉が失われてゆく世界で、執筆し、飲食し、交情する小説家。筒井康隆、究極の実験的長篇。" />'
     + '<meta property="og:image" content="https://close-encounter.s3.ap-northeast-1.amazonaws.com/result1.png" />';
   const htmlFile = fs.readFileSync(path.join(__dirname, './index.html'));
   const html = htmlFile.toString().replace('</head>', `${ogTags}</head>`);
@@ -19,8 +19,8 @@ exports.resultOgTags1 = functions.https.onRequest((req, res) => {
 
 exports.resultOgTags2 = functions.https.onRequest((req, res) => {
   const ogTags = '<meta name="twitter:card" content="summary_large_image"></meta>'
-    + '<meta property="og:title" content="人間失格度25% 「お伽草子」級" />'
-    + '<meta property="og:description" content="人間失格度25%のあなたは「お伽草子」級の人間です！お伽草子は、昔話を太宰流に想像を膨らませてリメイクした昔話パロディ作品です。この昔話そんな話じゃないだろ！とツッコミながら笑ってしまいます。パロディ短編の詰め合わせで読みやすいので、ぜひ読んでみて下さい" />'
+    + '<meta property="og:title" content="横浜駅SF" />'
+    + '<meta property="og:description" content="改築工事を繰り返す＜横浜駅＞が、ついに自己増殖を開始。それから数百年――ＪＲ北日本・ＪＲ福岡2社が独自技術で防衛戦を続けるものの、日本は本州の99％が横浜駅化した。脳に埋め込まれたSuika で人間が管理されるエキナカ社会。その外側で暮らす非Suika 住民のヒロトは、駅への反逆で追放された男から『18きっぷ』と、ある使命を託された。" />'
     + '<meta property="og:image" content="https://close-encounter.s3.ap-northeast-1.amazonaws.com/result2.png" />';
   const htmlFile = fs.readFileSync(path.join(__dirname, './index.html'));
   const html = htmlFile.toString().replace('</head>', `${ogTags}</head>`);
@@ -29,8 +29,8 @@ exports.resultOgTags2 = functions.https.onRequest((req, res) => {
 
 exports.resultOgTags3 = functions.https.onRequest((req, res) => {
   const ogTags = '<meta name="twitter:card" content="summary_large_image"></meta>'
-    + '<meta property="og:title" content="人間失格度50% 「女生徒」級" />'
-    + '<meta property="og:description" content="人間失格度50%のあなたは「女生徒」級の人間です！「女生徒」は、太宰治が女子になりきって書いた日記風の小説です。主人公の純粋で無邪気な部分と、どこか寂しさを感じる影の部分が描かれていて、奥深さがあります。この「女生徒」は、一人称で書かれており、主人公の内面が丁寧に描かれています。短編でとても読みやすいので、ぜひ読んでみて下さい。" />'
+    + '<meta property="og:title" content="七十四秒の旋律と孤独" />'
+    + '<meta property="og:description" content="人類が滅亡した宇宙。かつて人に創られたロボットたちは、“特別をつくらない”という掟を守り、宇宙を観測していた。" />'
     + '<meta property="og:image" content="https://close-encounter.s3.ap-northeast-1.amazonaws.com/result3.png" />';
   const htmlFile = fs.readFileSync(path.join(__dirname, './index.html'));
   const html = htmlFile.toString().replace('</head>', `${ogTags}</head>`);
@@ -39,8 +39,8 @@ exports.resultOgTags3 = functions.https.onRequest((req, res) => {
 
 exports.resultOgTags4 = functions.https.onRequest((req, res) => {
   const ogTags = '<meta name="twitter:card" content="summary_large_image"></meta>'
-    + '<meta property="og:title" content="人間失格度75% 「ヴィヨンの妻」級" />'
-    + '<meta property="og:description" content="人間失格度75%のあなたは「ヴィヨンの妻」級の人間です！「ヴィヨンの妻」は、ダメな夫を持つ妻を主人公とし、彼女の苦悩と生き方を描いた作品です。辛い状況でも明るく振る舞って生きる主人公の姿は好感が持てます。登場人物が妙に人間臭くて魅力のある作品なので、一度手にとってみてはいかがでしょうか。" />'
+    + '<meta property="og:title" content="新世界より" />'
+    + '<meta property="og:description" content="１０００年後の日本。豊かな自然に抱かれた集落、神栖（かみす）６６町には純粋無垢な子どもたちの歓声が響く。周囲を注連縄（しめなわ）で囲まれたこの町には、外から穢れが侵入することはない。「神の力（念動力）」を得るに至った人類が手にした平和。念動力（サイコキネシス）の技を磨く子どもたちは野心と希望に燃えていた……隠された先史文明の一端を知るまでは。" />'
     + '<meta property="og:image" content="https://close-encounter.s3.ap-northeast-1.amazonaws.com/result4.png" />';
   const htmlFile = fs.readFileSync(path.join(__dirname, './index.html'));
   const html = htmlFile.toString().replace('</head>', `${ogTags}</head>`);
@@ -49,38 +49,38 @@ exports.resultOgTags4 = functions.https.onRequest((req, res) => {
 
 exports.resultOgTags5 = functions.https.onRequest((req, res) => {
   const ogTags = '<meta name="twitter:card" content="summary_large_image"></meta>'
-    + '<meta property="og:title" content="人間失格度100% 「人間失格」級" />'
-    + '<meta property="og:description" content="人間失格度100%のあなたは、「人間失格」の主人公「大庭葉蔵」に共感出来るかもしれません！「人間失格」は、太宰治の人生が反映されていると言われており、太宰治の人生の切り売りとも言える小説です。日本人に長く愛されている名作なので、ぜひ読んでみて下さい。" />'
+    + '<meta property="og:title" content="日本ＳＦの臨界点［怪奇篇］　ちまみれ家族" />'
+    + '<meta property="og:description" content="「2010年代、世界で最もSFを愛した作家」と称された伴名練が、全身全霊で贈る傑作アンソロジー。日常的に血まみれになってしまう奇妙な家族のドタバタを描いた津原泰水の表題作、中島らもの怪物的なロックノベル「DECO-CHIN」、幻の第一世代SF作家・光波耀子の「黄金珊瑚」など、幻想・怪奇テーマの隠れた名作11本を精選。。" />'
     + '<meta property="og:image" content="https://close-encounter.s3.ap-northeast-1.amazonaws.com/result5.png" />';
   const htmlFile = fs.readFileSync(path.join(__dirname, './index.html'));
   const html = htmlFile.toString().replace('</head>', `${ogTags}</head>`);
   res.send(html);
 });
 
-exports.resultOgTags5 = functions.https.onRequest((req, res) => {
+exports.resultOgTags6 = functions.https.onRequest((req, res) => {
   const ogTags = '<meta name="twitter:card" content="summary_large_image"></meta>'
-      + '<meta property="og:title" content="人間失格度100% 「人間失格」級" />'
-      + '<meta property="og:description" content="人間失格度100%のあなたは、「人間失格」の主人公「大庭葉蔵」に共感出来るかもしれません！「人間失格」は、太宰治の人生が反映されていると言われており、太宰治の人生の切り売りとも言える小説です。日本人に長く愛されている名作なので、ぜひ読んでみて下さい。" />'
+      + '<meta property="og:title" content="100文字ＳＦ" />'
+      + '<meta property="og:description" content="Twitterで発表された約2000篇の【ほぼ百字小説】から200篇を厳選。たった100字で無限の時間と空間を創造する、まったく新しいＳＦ" />'
       + '<meta property="og:image" content="https://close-encounter.s3.ap-northeast-1.amazonaws.com/result6.png" />';
   const htmlFile = fs.readFileSync(path.join(__dirname, './index.html'));
   const html = htmlFile.toString().replace('</head>', `${ogTags}</head>`);
   res.send(html);
 });
 
-exports.resultOgTags5 = functions.https.onRequest((req, res) => {
+exports.resultOgTags7 = functions.https.onRequest((req, res) => {
   const ogTags = '<meta name="twitter:card" content="summary_large_image"></meta>'
-      + '<meta property="og:title" content="人間失格度100% 「人間失格」級" />'
-      + '<meta property="og:description" content="人間失格度100%のあなたは、「人間失格」の主人公「大庭葉蔵」に共感出来るかもしれません！「人間失格」は、太宰治の人生が反映されていると言われており、太宰治の人生の切り売りとも言える小説です。日本人に長く愛されている名作なので、ぜひ読んでみて下さい。" />'
+      + '<meta property="og:title" content="最後にして最初のアイドル" />'
+      + '<meta property="og:description" content="時はアイドル戦国時代。生後６か月でアイドルオタクになった古月みかは、高校のアイドル部で出会った新園眞織とともに宇宙一のアイドルになることを目指す。しかし非情な現実が彼女の望みを打ち砕くのだった。それから数年後、謎の巨大太陽フレアが発生。地球人類は滅亡の危機に陥る。地獄のような世界をサヴァイヴする彼女たちが目にした、〈アイドル〉の最終局面とは？" />'
       + '<meta property="og:image" content="https://close-encounter.s3.ap-northeast-1.amazonaws.com/result7.png" />';
   const htmlFile = fs.readFileSync(path.join(__dirname, './index.html'));
   const html = htmlFile.toString().replace('</head>', `${ogTags}</head>`);
   res.send(html);
 });
 
-exports.resultOgTags5 = functions.https.onRequest((req, res) => {
+exports.resultOgTags8 = functions.https.onRequest((req, res) => {
   const ogTags = '<meta name="twitter:card" content="summary_large_image"></meta>'
-      + '<meta property="og:title" content="人間失格度100% 「人間失格」級" />'
-      + '<meta property="og:description" content="人間失格度100%のあなたは、「人間失格」の主人公「大庭葉蔵」に共感出来るかもしれません！「人間失格」は、太宰治の人生が反映されていると言われており、太宰治の人生の切り売りとも言える小説です。日本人に長く愛されている名作なので、ぜひ読んでみて下さい。" />'
+      + '<meta property="og:title" content="裏世界ピクニック" />'
+      + '<meta property="og:description" content="「くねくね」や「八尺様」など実話怪談として語られる危険な存在が出現する、この現実と隣合わせで謎だらけの裏世界。研究とお金稼ぎ、そして大切な人を探すため、鳥子と空魚は非日常へと足を踏み入れる" />'
       + '<meta property="og:image" content="https://close-encounter.s3.ap-northeast-1.amazonaws.com/result8.png" />';
   const htmlFile = fs.readFileSync(path.join(__dirname, './index.html'));
   const html = htmlFile.toString().replace('</head>', `${ogTags}</head>`);
