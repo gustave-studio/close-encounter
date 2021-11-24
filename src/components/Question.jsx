@@ -28,6 +28,23 @@ const Question = (props) => {
     }
   };
 
+  const questionNumberForDisplay = () => {
+    switch (questionNumber) {
+      case 0:
+        return '1';
+      case 1:
+      case 2:
+        return '2';
+      case 3:
+      case 4:
+      case 5:
+      case 6:
+        return '3';
+      default:
+        return '1';
+    }
+  };
+
   return (
     <Grid container>
       <Grid item xs={1} />
@@ -42,7 +59,7 @@ const Question = (props) => {
             <CardContent>
               <Typography variant="h4" component="span">
                 質問
-                {questionNumber + 1}
+                {questionNumberForDisplay()}
               </Typography>
               <Typography variant="body2" component="span">
                 <p>{questionText}</p>
