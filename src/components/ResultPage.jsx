@@ -21,7 +21,7 @@ const ResultPage = (props) => {
   const navigate = useNavigate();
   const [toTop, setToTop] = useState(false);
 
-  const { result } = props;
+  const { result, setQuestionNumber } = props;
   const texts = Results[result].containts.split('\n').map((item) => (
     <div key={item}>
       {item}
@@ -84,7 +84,9 @@ const ResultPage = (props) => {
     <>
       <div className="container">
         <h1>
-          あなたが出会ったSFは
+          あなたが出会った
+          <br />
+          SFは
           <br />
           「
           {Results[result].title}
@@ -132,6 +134,7 @@ const ResultPage = (props) => {
                   variant="contained"
                   onClick={() => {
                     setToTop(true);
+                    setQuestionNumber(0);
                   }}
                 >
                   診断トップへ
@@ -148,6 +151,7 @@ const ResultPage = (props) => {
 
 ResultPage.propTypes = {
   result: PropTypes.string.isRequired,
+  setQuestionNumber: PropTypes.func.isRequired,
 };
 
 export default ResultPage;

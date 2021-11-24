@@ -2,10 +2,11 @@ import React, { useState, useEffect, useRef } from 'react';
 
 import { CSSTransition } from 'react-transition-group';
 import { useNavigate } from 'react-router-dom';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import Question from './Question';
 
-const Questions = () => {
+const Questions = (props) => {
+  const { questionNumber, setQuestionNumber } = props;
   const navigate = useNavigate();
   const nodeRef = useRef(null);
 
@@ -17,7 +18,6 @@ const Questions = () => {
     '短い小説なら読めそうですか？',
     '推しのアイドルがいますか？'];
 
-  const [questionNumber, setQuestionNumber] = useState(0);
   const [answer1, setAnser1] = useState(null);
   const [answer2, setAnser2] = useState(null);
   const [answer3, setAnser3] = useState(null);
@@ -115,8 +115,9 @@ const Questions = () => {
   );
 };
 
-// Questions.propTypes = {
-//   navigate: PropTypes.string.isRequired,
-// };
+Questions.propTypes = {
+  questionNumber: PropTypes.number.isRequired,
+  setQuestionNumber: PropTypes.func.isRequired,
+};
 
 export default Questions;

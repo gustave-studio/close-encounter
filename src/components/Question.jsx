@@ -11,10 +11,32 @@ const Question = (props) => {
     questionNumber, questionText, setAnswer, setQuestionNumber, setShowQuestion,
   } = props;
 
+  const progressRate = () => {
+    switch (questionNumber) {
+      case 0:
+        return '0';
+      case 1:
+      case 2:
+        return '33';
+      case 3:
+      case 4:
+      case 5:
+      case 6:
+        return '66';
+      default:
+        return '90';
+    }
+  };
+
   return (
     <Grid container>
       <Grid item xs={1} />
       <Grid item xs={10}>
+        <div className="questionHeader">
+          <h1>SFと出会う診断</h1>
+          <h2>(初心者編)</h2>
+          <progress id="file" max="100" value={progressRate()} />
+        </div>
         <div className="question">
           <Card sx={{ minWidth: 275 }}>
             <CardContent>

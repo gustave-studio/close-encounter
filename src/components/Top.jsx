@@ -8,10 +8,8 @@ import StartButton from './StartButton';
 
 const Top = () => (
   <div className="container">
-    <h1>
-      SF診断
-    </h1>
-    <p>v 1.0.0 版</p>
+    <h1>SFと出会う診断</h1>
+    <h2>(初心者編)</h2>
 
     <div className="explanation">
       <Card sx={{ minWidth: 275 }}>
