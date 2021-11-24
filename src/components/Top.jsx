@@ -8,7 +8,7 @@ import StartButton from './StartButton';
 
 const Top = () => (
   <div className="container">
-    <h1>SFと出会う診断</h1>
+    <h1>SFに出会う診断</h1>
     <h2>(初心者編)</h2>
 
     <div className="explanation">
