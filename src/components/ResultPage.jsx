@@ -104,21 +104,26 @@ const ResultPage = (props) => {
               </Typography>
             </CardContent>
             { advertisement() }
-            <TwitterShareButton
-              url={`https://close-encounter-4d1f3.web.app/${result}`}
-              title={['']}
-            >
-              <TwitterIcon size={50} round />
-            </TwitterShareButton>
-            <FacebookShareButton
-              url={`https://close-encounter-4d1f3.web.app/${result}`}
-              quote={['']}
-            >
-              <FacebookIcon size={50} round />
-            </FacebookShareButton>
-            <LineShareButton url={`https://close-encounter-4d1f3.web.app/${result}`}>
-              <LineIcon size={50} round />
-            </LineShareButton>
+            <br />
+            <p>みんなに結果を伝えよう！</p>
+            <br />
+            <div className="share">
+              <TwitterShareButton
+                url={`https://close-encounter.gustave-studio.com/${result}`}
+                title={['']}
+              >
+                <TwitterIcon size={50} round />
+              </TwitterShareButton>
+              <FacebookShareButton
+                url={`https://close-encounter.gustave-studio.com/${result}`}
+                quote={['']}
+              >
+                <FacebookIcon size={50} round />
+              </FacebookShareButton>
+              <LineShareButton url={`https://close-encounter.gustave-studio.com/${result}`}>
+                <LineIcon size={50} round />
+              </LineShareButton>
+            </div>
           </Card>
         </div>
       </div>

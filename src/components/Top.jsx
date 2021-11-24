@@ -20,15 +20,14 @@ const Top = () => (
             style={{ fontSize: '18px' }}
           >
             <div>
-              SF診断
+              たまにはSFでも読んでみませんか？
               <br />
               <br />
-              SF診断
+              SF診断を開始しておすすめのSFに出会いましょう！
               <br />
               <br />
-              全6問
               <br />
-              所用時間1分
+              所用時間30秒
             </div>
           </Typography>
         </CardContent>
