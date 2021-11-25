@@ -107,7 +107,7 @@
 .explanation {
   width: 70%;
   /* position: absolute; */
-  margin: 150px 15% ;
+  margin: 9% 15% 0% 15%;
 }
 
 .container button {
@@ -130,7 +130,7 @@
   width: 100%;
   /* position: absolute; */
   bottom: 10%;
-  margin: 5% 0%;
+  margin: 3% 0%;
 }
 
 .Button {
