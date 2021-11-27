@@ -1,0 +1,48 @@
+{
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/result1",
+        "function": "resultOgTags1"
+      },
+      {
+        "source": "/result2",
+        "function": "resultOgTags2"
+      },
+      {
+        "source": "/result3",
+        "function": "resultOgTags3"
+      },
+      {
+        "source": "/result4",
+        "function": "resultOgTags4"
+      },
+      {
+        "source": "/result5",
+        "function": "resultOgTags5"
+      },
+      {
+        "source": "/result6",
+        "function": "resultOgTags6"
+      },
+      {
+        "source": "/result7",
+        "function": "resultOgTags7"
+      },
+      {
+        "source": "/result8",
+        "function": "resultOgTags8"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
