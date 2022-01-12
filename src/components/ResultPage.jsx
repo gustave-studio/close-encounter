@@ -32,40 +32,75 @@ const ResultPage = (props) => {
     switch (result) {
       case 'result1':
         return (
-          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4122022878&linkId=d6a22d246b734078e09651ecdda5a7d4&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+          <div>
+            <a href="https://www.amazon.co.jp/dp/4122022878">
+              <p>「残像に口紅を」をAmazonで見る</p>
+            </a>
+          </div>
         );
       case 'result2':
         return (
-          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4040721578&linkId=c9de6ccba05e1c73b038350808a464d5&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+          <div>
+            <a href="https://www.amazon.co.jp/dp/4040721578">
+              <p>横浜駅SFをAmazonで見る</p>
+            </a>
+          </div>
         );
       case 'result3':
         return (
-          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4488018424&linkId=ca458dba6961daf13072c65d061268e6&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+          <div>
+            <a href="https://www.amazon.co.jp/dp/4488018424">
+              <p>七十四秒の旋律と孤独をAmazonで見る</p>
+            </a>
+          </div>
         );
-
       case 'result4':
         return (
-          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4062768534&linkId=be9a86ec880535c2fcfc98808496e9bc&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+          <div>
+            <a href="https://www.amazon.co.jp/dp/4062768534">
+              <p>新世界より(上)をAmazonで見る</p>
+            </a>
+          </div>
         );
       case 'result5':
         return (
-          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=B08CRYNGLF&linkId=79aaa5089ece79f3418c7ae21368f76a&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+          <div>
+            <a href="https://www.amazon.co.jp/dp/4150314411">
+              <p>日本SFの臨界点[怪奇篇] ちまみれ家族</p>
+            </a>
+          </div>
         );
       case 'result6':
         return (
-          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4150314314&linkId=6bb476525e52d2ad0317b111403d5286&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+          <div>
+            <a href="https://www.amazon.co.jp/dp/4150314314">
+              <p>100文字SFをAmazonで見る</p>
+            </a>
+          </div>
         );
       case 'result7':
         return (
-          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4150313148&linkId=83cd26ffdbbe26e60f52288e7ea3efc0&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+          <div>
+            <a href="https://www.amazon.co.jp/dp/4150313148">
+              <p>最後にして最初のアイドルをAmazonで見る</p>
+            </a>
+          </div>
         );
       case 'result8':
         return (
-          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4150312648&linkId=c4158388b619d2bec8815e2c3ee18013&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+          <div>
+            <a href="https://www.amazon.co.jp/dp/4150312648">
+              <p>裏世界ピクニック ふたりの怪異探検ファイルをAmazonで見る</p>
+            </a>
+          </div>
         );
       default:
         return (
-          <iframe title="advertisement" className="advertisement" style={{ width: '120px', height: '240px' }} marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=gustave02-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4150312648&linkId=c4158388b619d2bec8815e2c3ee18013&bc1=ffffff&amp;lt1=_blank&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr" />
+          <div>
+            <a href="https://www.amazon.co.jp/dp/4150312648">
+              <p>裏世界ピクニック ふたりの怪異探検ファイルをAmazonで見る</p>
+            </a>
+          </div>
         );
     }
   };
